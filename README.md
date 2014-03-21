@@ -1,4 +1,4 @@
-##PyTextEdit v0.1
+##PyTextEdit v0.2
 -----------------------------
 ####created by: Jake Martinez
 
