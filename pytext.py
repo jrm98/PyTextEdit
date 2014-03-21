@@ -168,6 +168,10 @@ def readNextCommand(prev):
 	tokens = inp.split()
 	return tokens
 
+#----------------------------------------------------------------------------
+# Description: Loads the configuration file
+# Returns: nothing
+#----------------------------------------------------------------------------
 def loadconfig():
 	global cursorLocation
 	global devMode
@@ -185,7 +189,7 @@ def loadconfig():
 	if ('cursor' in config['DEFAULT']):
 		cursorLocation = int(config['DEFAULT']['cursor'])
 	if ('devMode' in config['DEFAULT']):
-		devMode = bool(config['DEFAULT']['devMode'])
+		devMode = config.getboolean('DEFAULT', 'devMode')
 
 	print("pytext_config.ini loaded...")
 	return
