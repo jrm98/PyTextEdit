@@ -7,6 +7,9 @@ environment. Retains basic functionality of creating new files,
 saving current files, and loading from files. Text editing operations
 include inserting text at a the cursor and deleting text at the cursor
 
+Note: the bash script "run.sh" will not work if it is not given
+      execute permissions
+
 Supported Commands: 
 - new <*filename*>
 - open <*filename*>
