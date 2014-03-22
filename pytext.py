@@ -488,7 +488,7 @@ def info():
 	print("            |  _/ || || |/ -_) \ /  _| _|/ _` | |  _|")
 	print("~Welcome to |_|  \_, ||_|\___/_\_\\\__|___\__,_|_|\__| ~")
 	print("                 |__/                                ")
-	print("                            v0.1 (3.21.2014)")
+	print("                            v0.2 (3.21.2014)")
 	print("                            created by: Jake Martinez")
 	print("                            github.com/jrm98/PyTextEdit")
 	print("\n Begin by entering a valid command")

@@ -5,7 +5,19 @@
 A basic text editor created with python to run in a command line
 environment. Retains basic functionality of creating new files,
 saving current files, and loading from files. Text editing operations
-include inserting text at a the cursor and deleting text at the cursor
+include inserting text at a the cursor and deleting text at the cursor.
+
+Features:
+- Opens with a splash screen along with a ">" indicating the program
+is awaiting user input
+- After each command is entered, The command-line interface will clear
+to provide a more consistent user interface
+- If a file is open, the name of the file will be displayed in parenthesis
+at the top of the UI
+- If the file currently open has been modified, an asterisk will be
+displayed next to the file name
+- While in developer's mode, "[devMode]" will be displayed at the top
+of the UI next to the program's name
 
 Note: the bash script "run.sh" will not work if it is not given
       execute permissions
