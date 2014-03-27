@@ -8,7 +8,7 @@ saving current files, and loading from files. Text editing operations
 include inserting text at a the cursor and deleting text at the cursor.
 
 Features:
-- Opens with a splash screen along with a ">" indicating the program
+- Opens with a splash screen along with a ```>``` indicating the program
 is awaiting user input
 - After each command is entered, The command-line interface will clear
 to provide a more consistent user interface
@@ -16,37 +16,37 @@ to provide a more consistent user interface
 at the top of the UI
 - If the file currently open has been modified, an asterisk will be
 displayed next to the file name
-- While in developer's mode, "[devMode]" will be displayed at the top
+- While in developer's mode, ```[devMode]``` will be displayed at the top
 of the UI next to the program's name
 
 To run the program, enter the following command:
-python3 ~/*pathname*/pytext.py
+```python3 ~/*pathname*/pytext.py```
 
 *Note: the bash script "run.sh" will not work if it is not given
       execute permissions*
 
 Supported Commands: 
-- new <*filename*>
-- open <*filename*>
-- save 
-- saveas <*filename*>
-- insert <*string*>
-- erase
-- erase <*integer*>
-- move <*integer*> 
-- status
-- close
-- quit
-- help
-- info
-- history
-- devmode
-- sub*
-- config*
+- ```new <*filename*>```
+- ```open <*filename*>```
+- ```save```
+- ```saveas <*filename*>```
+- ```insert <*string*>```
+- ```erase```
+- ```erase <*integer*>```
+- ```move <*integer*>```
+- ```status```
+- ```close```
+- ```quit```
+- ```help```
+- ```info```
+- ```history```
+- ```devmode```
+- ```sub```*
+- ```config```*
 
 Commands in development:
-- config
-- sub
+- ```config```
+- ```sub```
 
 Potential commands to be added:
 - peek (or preview)
