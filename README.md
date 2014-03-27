@@ -19,8 +19,11 @@ displayed next to the file name
 - While in developer's mode, "[devMode]" will be displayed at the top
 of the UI next to the program's name
 
-Note: the bash script "run.sh" will not work if it is not given
-      execute permissions
+To run the program, enter the following command:
+python3 ~/*pathname*/pytext.py
+
+*Note: the bash script "run.sh" will not work if it is not given
+      execute permissions*
 
 Supported Commands: 
 - new <*filename*>
