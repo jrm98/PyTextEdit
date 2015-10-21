@@ -1,13 +1,13 @@
 ##PyTextEdit v0.2
 -----------------------------
-####created by: Jake Martinez
 
+####Description
 A basic text editor created with python to run in a command line
 environment. Retains basic functionality of creating new files,
 saving current files, and loading from files. Text editing operations
 include inserting text at a the cursor and deleting text at the cursor.
 
-Features:
+####Features
 - Opens with a splash screen along with a ```>``` indicating the program
 is awaiting user input
 - After each command is entered, The command-line interface will clear
@@ -25,7 +25,7 @@ To run the program, enter the following command:
 *Note: the bash script "run.sh" will not work if it is not given
       execute permissions*
 
-Supported Commands: 
+#####Supported Commands: 
 - ```new <*filename*>```
 - ```open <*filename*>```
 - ```save```
@@ -44,16 +44,16 @@ Supported Commands:
 - ```sub```*
 - ```config```*
 
-Commands in development:
+#####Commands in development:
 - ```config```
 - ```sub```
 
-Potential commands to be added:
+#####Potential commands to be added:
 - peek (or preview)
 - compile
 - run
 
-Potential upgrades:
+#####Potential upgrades:
 - cleaner, more user-friendly UI
 
-*Commands may be mildly functional, but almost certainly contains bugs
+**Commands may be mildly functional, but almost certainly contains bugs*
